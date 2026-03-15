@@ -2,6 +2,11 @@ import Image from "next/image";
 import RotatingText from "./ui/RotatingText";
 
 export default function Heroheading() {
+  const texts = [
+  "Full Stack Engineer",
+  "I love creating, crafting and learning",
+  "And you'll always gravitate towards what you love",
+];
   return (
     <div className="innerContainer">
       <div className="h-[24vh] w-full flex items-center justify-start">
@@ -42,7 +47,7 @@ export default function Heroheading() {
             </svg>
           </div>
           <div className="h-[20%] px-2 flex items-center font1 tracking-tighter text-sm">
-            <RotatingText />
+            <RotatingText texts={texts}/>
           </div>
         </div>
       </div>

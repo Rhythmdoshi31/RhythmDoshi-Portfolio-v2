@@ -9,10 +9,11 @@ import StackBox from "./components/StackBox";
 import ProjectsSection from "./components/ProjectsSection";
 import EducationSection from "./components/EducationSetion";
 import BlogsSection from "./components/BlogsSection";
+import Footer from "./components/layout/Footer";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg1 dark:bg-black pb-12">
+    <main className="min-h-screen bg1 dark:bg-black">
       {/* HeroBanner */}
       <div className="w-full border-b">
         <HeroBanner />
@@ -69,6 +70,8 @@ export default function Home() {
       <Heading name="Blogs"/>
 
       <BlogsSection />
+
+      <Footer />
     </main>
   );
 }

@@ -1,13 +1,11 @@
 "use client";
 import { useEffect, useState } from "react";
 
-const texts = [
-  "Full Stack Engineer",
-  "I love creating, crafting and learning",
-  "And you'll always gravitate towards what you love",
-];
+type TextProps = {
+  texts: string[];
+};
 
-export default function RotatingText() {
+export default function RotatingText({texts}: TextProps) {
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
