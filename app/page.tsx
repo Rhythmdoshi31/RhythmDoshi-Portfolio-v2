@@ -7,6 +7,8 @@ import AboutSection from "./components/AboutSection";
 import Heading from "./components/layout/Heading";
 import StackBox from "./components/StackBox";
 import ProjectsSection from "./components/ProjectsSection";
+import EducationSection from "./components/EducationSetion";
+import BlogsSection from "./components/BlogsSection";
 
 export default function Home() {
   return (
@@ -53,65 +55,20 @@ export default function Home() {
 
       <StripedBox />
 
-      <Heading name="Projects" />
-
-      <div className="w-full border-b">
-        <div className="innerContainer h-12 flex items-center justify-start px-4 font1 tracking-tighter text2 text-sm">
-          <h3>A collection of some of the projects I&apos;ve worked on.</h3>
-        </div>
-      </div>
-
-      {/* // Project lines */}
-      <div className="w-full border-b">
-        <div className="innerContainer h-5 relative">
-          <div className="pointer-events-none absolute inset-0 grid grid-cols-1 sm:grid-cols-2 gap-4">
-            <div className="border-r border-edge"></div>
-            <div className="border-l border-edge"></div>
-          </div>
-        </div>
-      </div>
-
-      <div className="w-full border-b h-fit">
-        <ProjectsSection />
-      </div>
-
-      <div className="w-full border-b">
-        <div className="innerContainer h-5 relative">
-          <div className="pointer-events-none absolute inset-0 grid grid-cols-1 sm:grid-cols-2 gap-4">
-            <div className="border-r border-edge"></div>
-            <div className="border-l border-edge"></div>
-          </div>
-        </div>
-      </div>
-
-      <div className="w-full border-b h-fit">
-        <ProjectsSection />
-      </div>
-
-      <div className="w-full border-b">
-        <div className="innerContainer h-5 relative">
-          <div className="pointer-events-none absolute inset-0 grid grid-cols-1 sm:grid-cols-2 gap-4">
-            <div className="border-r border-edge"></div>
-            <div className="border-l border-edge"></div>
-          </div>
-        </div>
-      </div>
-
-      <div className="w-full border-b h-fit">
-        <ProjectsSection />
-      </div>
-      <div className="w-full border-b">
-        <div className="innerContainer h-5 flex items-center justify-end px-4">
-          <h5 className="text-sm text1 font2 tracking-tighter hover:underline"> More Projects on Github</h5>
-        </div>
-      </div>
-
-
+      <ProjectsSection />
 
       <StripedBox />
 
       <Heading name="Education" />
-      <div className="w-full border h-fit"></div>
+      <div className="w-full border-b h-fit">
+        <EducationSection />
+      </div>
+
+      <StripedBox />
+
+      <Heading name="Blogs"/>
+
+      <BlogsSection />
     </main>
   );
 }
