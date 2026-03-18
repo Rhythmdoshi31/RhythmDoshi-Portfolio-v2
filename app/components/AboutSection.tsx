@@ -4,7 +4,7 @@ export default function AboutSection() {
   return (
     <>
       <div className="innerContainer h-full px-4 text-[15px]">
-        <div className="flex flex-col gap-4 font1 tracking-tighter py-4 text-zinc-700 dark:text-zinc-300">
+        <div className="flex flex-col gap-4 font1 tracking-tighter py-4 text1">
           <ul className="list-disc pl-5 flex flex-col gap-2 marker:text-zinc-300">
             <li>
               Final-year full-stack developer who enjoys building things for the

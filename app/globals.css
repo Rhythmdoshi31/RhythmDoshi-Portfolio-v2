@@ -41,6 +41,10 @@ html {
   --border: var(--bg2);
 }
 
+.hover-bg2:hover {
+  background-color: var(--bg2);
+}
+
 .dark {
   --background: #0f0f0f;
   --foreground: #f5f5f5;
@@ -84,6 +88,15 @@ html {
   margin-inline: auto;        /* Tailwind mx-auto */
   border-left: 1px solid var(--border);
   border-right: 1px solid var(--border);
+}
+
+.tooltip {
+  background: var(--foreground);
+  color: var(--background);
+}
+
+.tooltip-arrow {
+  background: var(--foreground);
 }
 
 body {

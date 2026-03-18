@@ -42,25 +42,17 @@ export default function StackBox() {
             {/* Tooltip */}
             <div
               className="
-    absolute -top-10 left-1/2 -translate-x-1/2
-    opacity-0 group-hover:opacity-100
-    transition-all duration-200
-    pointer-events-none
-  "
+  absolute -top-10 left-1/2 -translate-x-1/2
+  opacity-0 group-hover:opacity-100
+  transition-all duration-200
+  pointer-events-none
+"
             >
-              <div className="bg-black text-white dark:bg-white dark:text-black text-xs px-2 py-1 rounded-md whitespace-nowrap shadow-md">
+              <div className="tooltip text-xs px-2 py-1 rounded-md whitespace-nowrap shadow-md">
                 {tech}
               </div>
 
-              {/* Arrow */}
-              <div
-                className="
-      w-2 h-2 bg-black dark:bg-white
-      rotate-45
-      absolute left-1/2 -translate-x-1/2
-      top-full -mt-1
-    "
-              />
+              <div className="tooltip-arrow w-2 h-2 rotate-45 absolute left-1/2 -translate-x-1/2 top-full -mt-1" />
             </div>
           </div>
         ))}

@@ -14,7 +14,7 @@ export default function Heroheading() {
           id="imageDiv"
           className="h-full w-1/4 bg1 border-r flex items-center justify-center"
         >
-          <div className="relative size-[90%] rounded-full border p-[3px]">
+          <div className="relative size-[100%] rounded-full border p-[3px] hover:p-0 transition easy-in-out">
             <div className="relative w-full h-full rounded-full overflow-hidden">
               <Image
                 src="/images/heroImage.webp"
@@ -37,7 +37,7 @@ export default function Heroheading() {
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
-              className="size-4.5 text-info select-none"
+              className="size-4.5 text-info select-none hover:rotate-360 transition duration-500 ease-in-out"
               aria-label="Verified"
             >
               <path

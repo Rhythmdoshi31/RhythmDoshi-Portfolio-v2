@@ -14,7 +14,7 @@ export default function RootLayout({children,}: Readonly<{ children: React.React
       <body
         className={`font1 font2 antialiased`}
       >
-        <div className="absolute top-0 left-0 sticky h-2 w-screen bg-white z-10"></div>
+        <div className="sticky top-0 h-2 w-full bg1 z-50"></div>
         <Navbar />
         <ThemeToggle />
         {children}
