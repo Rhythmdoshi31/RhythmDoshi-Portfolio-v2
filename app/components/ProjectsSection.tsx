@@ -2,14 +2,31 @@ import { ArrowUpRight } from "lucide-react";
 import Heading from "./layout/Heading";
 import Projects from "./Projects";
 import ProjectLines from "./ProjectLines";
+import type { Project } from "../types/Project.types";
 
 export default function ProjectsSection() {
+  const arr1: Project[] = [
+    { slug:"betterdrive", heading: "BetterDrive", subheading: "Google Drive That Feels Right", image:"/projects/p1.webp"},
+    { slug:"societysync", heading: "SocietySync", subheading: "Society Management Platform", image:"/projects/p2.webp"},
+  ];
+  
+  const arr2: Project[] = [
+    { slug:"livelychat", heading: "LivelyChat", subheading: "Online Chat Application", image:"/projects/p3.webp"},
+    { slug:"cineclair", heading: "CineClair", subheading: "Movie & TV Recommendation Hub", image:"/projects/p4.webp"},
+  ];
+  
+  const arr3: Project[] = [
+    { slug:"portfolio", heading: "Portfolio", subheading: "My Personal Website v2", image:"/projects/p5.webp"},
+    // { slug:"buzztube", heading: "BuzzTube", subheading: "Video Sharing Platform", image:"/projects/p6.webp"},
+    { slug:"leetcode-hider", heading: "LeetCode Difficulty Hider", subheading: "Chrome Extension for Distraction-Free DSA Practice", image:"/projects/p6.webp"}
+  ];
+
   return (
     <div>
       <Heading name="Projects" />
 
       <div className="w-full border-b">
-        <div className="innerContainer h-12 flex items-center justify-start px-4 font1 tracking-tighter text2 text-sm">
+        <div className="innerContainer h-fit py-4 flex items-center justify-start px-4 font1 tracking-tighter text2 text-sm">
           <h3>A collection of some of the projects I&apos;ve worked on.</h3>
         </div>
       </div>
@@ -17,19 +34,19 @@ export default function ProjectsSection() {
       <ProjectLines />
 
       <div className="w-full border-b h-fit">
-        <Projects />
+        <Projects projectData={arr1}/>
       </div>
 
       <ProjectLines />
 
       <div className="w-full border-b h-fit">
-        <Projects />
+        <Projects projectData={arr2}/>
       </div>
 
       <ProjectLines />
 
       <div className="w-full border-b h-fit">
-        <Projects />
+        <Projects projectData={arr3}/>
       </div>
       <div className="w-full border-b">
         <div className="innerContainer h-5 flex items-center justify-end px-4 py-3">

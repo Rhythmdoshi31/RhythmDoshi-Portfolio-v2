@@ -1,4 +1,6 @@
-export default function Projects() {
+import Project from "./ui/Project";
+import type { ProjectProps } from "../types/Project.types";
+export default function Projects({ projectData }: ProjectProps) {
   return (
     <div className="innerContainer">
 
@@ -6,12 +8,12 @@ export default function Projects() {
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
 
         {/* row 1 */}
-        <div className="p-4 min-h-[30vh] border-r">
-          Project 1
+        <div className="p-2 h-[38vh] border-r hover:bg-zinc-50 cursor-pointer">
+          <Project {...projectData[0]}/>
         </div>
 
-        <div className="p-4 min-h-[30vh] border-l">
-          Project 2
+        <div className="p-2 h-[38vh] border-l hover:bg-zinc-50 cursor-pointer">
+          <Project {...projectData[1]} />
         </div>
       </div>
 

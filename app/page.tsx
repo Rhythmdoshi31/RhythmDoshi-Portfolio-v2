@@ -10,10 +10,12 @@ import ProjectsSection from "./components/ProjectsSection";
 import EducationSection from "./components/EducationSetion";
 import BlogsSection from "./components/BlogsSection";
 import Footer from "./components/layout/Footer";
+import ScrollToHash from "./components/ScrollToHash";
 
 export default function Home() {
   return (
     <main className="min-h-screen bg1 dark:bg-black">
+      <ScrollToHash />
       {/* HeroBanner */}
       <div className="w-full border-b">
         <HeroBanner />
@@ -39,7 +41,9 @@ export default function Home() {
       <StripedBox />
 
       {/* About Heading */}
-      <Heading name="About" />
+      <div id="about" className="scroll-mt-20">
+        <Heading name="About" />
+      </div>
 
       {/* About Section */}
       <div className="w-full border-b">
@@ -56,18 +60,25 @@ export default function Home() {
 
       <StripedBox />
 
-      <ProjectsSection />
+      <div id="projects" className="scroll-mt-20">
+        <ProjectsSection />
+      </div>
 
       <StripedBox />
 
-      <Heading name="Education" />
+      <div id="education" className="scroll-mt-20">
+        <Heading name="Education" />
+      </div>
+
       <div className="w-full border-b h-fit">
         <EducationSection />
       </div>
 
       <StripedBox />
 
-      <Heading name="Blogs"/>
+      <div id="blogs" className="scroll-mt-20">
+        <Heading name="Blogs" />
+      </div>
 
       <BlogsSection />
 

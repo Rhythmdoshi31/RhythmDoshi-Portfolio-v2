@@ -18,7 +18,7 @@ export default function Footer() {
     "no more.",
   ];
   return (
-    <div className="w-full h-[30vh]">
+    <footer className="w-full h-[30vh]">
       <div className="innerContainer h-full flex items-end justify-between p-4 pb-12">
         <div>
           <h1 className="text-xl font2 text2 underline">Rhythm Doshi</h1>
@@ -26,11 +26,11 @@ export default function Footer() {
           <h4 className="text-sm font1 tracking-tight text2">Linkedin</h4>
           <h4 className="text-sm font1 tracking-tight text2">+91-9981603789</h4>
         </div>
-        <div className="flex flex-col items-center justify-between h-full w-1/2 pt-4">
+        <div className="flex flex-col items-end justify-between h-full w-1/2 pt-4">
           <RotatingText texts={texts1} />
-          <RotatingText texts={texts2} />
+          <RotatingText texts={texts2}/>
         </div>
       </div>
-    </div>
+    </footer>
   );
 }
