@@ -3,6 +3,7 @@ import Heading from "./layout/Heading";
 import Projects from "./Projects";
 import ProjectLines from "./ProjectLines";
 import type { Project } from "../types/Project.types";
+import Link from "next/link";
 
 export default function ProjectsSection() {
   const arr1: Project[] = [
@@ -50,8 +51,8 @@ export default function ProjectsSection() {
       </div>
       <div className="w-full border-b">
         <div className="innerContainer h-5 flex items-center justify-end px-4 py-3">
-          <h5 className="text-sm text1 font2 tracking-tighter underline flex items-center gap-1">
-            More Projects on Github
+          <h5 className="text-sm text1 font2 tracking-tighter underline flex items-center gap-1 hover:!text-zinc-700 transition ease-in">
+            <Link href={"https://github.com/Rhythmdoshi31?tab=repositories"}>More Projects on Github</Link>
             <ArrowUpRight size={14} />
           </h5>
         </div>
