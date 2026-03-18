@@ -1,7 +1,7 @@
 "use client";
-import { ChevronsDownUp, ChevronsUpDown } from "lucide-react";
+// import { ChevronsDownUp, ChevronsUpDown } from "lucide-react";
 import IconBox from "./ui/IconBox";
-import { useState } from "react";
+// import { useState } from "react";
 
 export default function EducationSection() {
   // const [chevronA, setChevronA] = useState(false);
@@ -59,7 +59,7 @@ export default function EducationSection() {
       {/* <div className={`${chevronB ? "h-[30vh]" : ""} rounded-xl`}> */}
         <div
           // onClick={() => setChevronB(!chevronB)}
-          className={`flex items-start justify-between hover:bg-zinc-50 p-2`}
+          className={`flex items-start justify-between hover:bg-zinc-50 rounded-xl p-2`}
         >
           <div className="flex items-start gap-3">
             <IconBox>
