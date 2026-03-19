@@ -4,8 +4,9 @@ import Navbar from "./components/layout/Navbar";
 import ThemeToggle from "./components/ThemeToggle";
 
 export const metadata: Metadata = {
-  title: "Rhythm Doshi",
-  description: "Full Stack Engineer",
+  metadataBase: new URL('https://rhythmdoshi.site'),
+  title: "Rhythm Doshi — I Build Things for the Web",
+  description: "Full Stack Engineer building modern web applications. Explore my projects, stack, and experience in React, Next.js, Node.js and more.",
 
   icons: {
     icon: [
