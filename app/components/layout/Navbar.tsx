@@ -30,9 +30,9 @@ export default function Navbar() {
   return (
     <nav className="sticky top-2 z-50 h-12 w-full flex justify-center items-center bg1 border-y">
       
-      <div className="h-full max-w-3xl w-full flex justify-between items-center px-8 border-x">
+      <div className="h-full max-w-3xl w-[95%] md:full flex justify-between items-center px-8 border-x">
         
-        <Image src="/images/logo.svg" alt="Logo" width={32} height={32} />
+        <Image src="/images/logo.svg" alt="Logo" width={32} height={32} className="dark:bg-white rounded-md"/>
 
         <div className="flex gap-8">
           

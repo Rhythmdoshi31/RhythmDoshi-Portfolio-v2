@@ -11,6 +11,7 @@ import EducationSection from "./components/EducationSetion";
 import BlogsSection from "./components/BlogsSection";
 import Footer from "./components/layout/Footer";
 import ScrollToHash from "./components/ScrollToHash";
+import HiddenFooter from "./components/layout/HiddenFooter";
 
 export default function Home() {
   return (
@@ -34,7 +35,7 @@ export default function Home() {
       </div>
 
       {/* Social Links */}
-      <div className="w-full h-16 border-b">
+      <div className="w-full h-fit border-b">
         <SocialLinks />
       </div>
 
@@ -82,7 +83,10 @@ export default function Home() {
 
       <BlogsSection />
 
+
       <Footer />
+      <HiddenFooter />
+
     </main>
   );
 }

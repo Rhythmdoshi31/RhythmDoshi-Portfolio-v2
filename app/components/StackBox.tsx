@@ -1,7 +1,7 @@
 const stack = [
   "typescript",
+  "javascript",
   "java",
-  "js",
   "react",
   "nextjs",
   "nodejs",
@@ -22,19 +22,19 @@ const needsBg = ["nextjs", "express", "cursor", "shadcn-ui"];
 export default function StackBox() {
   return (
     <div className="innerContainer p-4">
-      <div className="grid grid-cols-[repeat(auto-fit,minmax(40px,1fr))] gap-6 place-items-center">
+      <div className="grid grid-cols-[repeat(auto-fit,minmax(50px,1fr))] gap-6 place-items-center">
         {stack.map((tech) => (
           <div key={tech} className="relative group">
             {/* Icon */}
             <div
               className={`
-                size-9 flex items-center justify-center rounded-xl
+                size-11 flex items-center justify-center rounded-xl
                 ${needsBg.includes(tech) ? "dark:bg-white" : ""}
               `}
             >
               <img
                 src={`/techstack/${tech}.svg`}
-                className="size-8 rounded-md"
+                className="size-10 rounded-md"
                 alt={tech}
               />
             </div>

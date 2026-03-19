@@ -14,7 +14,7 @@ import TimeClock from "./ui/Clock";
 export default function InfoBox() {
   return (
     <>
-      <div className="innerContainer h-[25vh] p-4 py-6 font1 tracking-tighter grid grid-cols-1 md:grid-cols-2">
+      <div className="innerContainer min-h-[25vh] p-4 py-6 font1 tracking-tighter grid grid-cols-1 sm:grid-cols-2">
         <div className="flex flex-col gap-2 justify-center">
           <div className="flex items-center gap-2 group">
             <IconBox>

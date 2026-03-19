@@ -34,21 +34,53 @@ export default function ProjectsSection() {
 
       <ProjectLines />
 
-      <div className="w-full border-b h-fit">
+      {/* large: 2 cols in Projects + 1 ProjectLines below */}
+      <div className="hidden sm:block w-full border-b h-fit">
         <Projects projectData={arr1}/>
       </div>
 
+      {/* small: 2 single rows each with ProjectLines below */}
+      <div className="sm:hidden">
+        <div className="w-full border-b h-fit">
+          <Projects projectData={[arr1[0]]}/>
+        </div>
+        <ProjectLines />
+        <div className="w-full border-b h-fit">
+          <Projects projectData={[arr1[1]]}/>
+        </div>
+      </div>
+
       <ProjectLines />
 
-      <div className="w-full border-b h-fit">
+      <div className="hidden sm:block w-full border-b h-fit">
         <Projects projectData={arr2}/>
       </div>
+      <div className="sm:hidden">
+        <div className="w-full border-b h-fit">
+          <Projects projectData={[arr2[0]]}/>
+        </div>
+        <ProjectLines />
+        <div className="w-full border-b h-fit">
+          <Projects projectData={[arr2[1]]}/>
+        </div>
+      </div>
 
       <ProjectLines />
 
-      <div className="w-full border-b h-fit">
+      <div className="hidden sm:block w-full border-b h-fit">
         <Projects projectData={arr3}/>
       </div>
+      <div className="sm:hidden">
+        <div className="w-full border-b h-fit">
+          <Projects projectData={[arr3[0]]}/>
+        </div>
+        <ProjectLines />
+        <div className="w-full border-b h-fit">
+          <Projects projectData={[arr3[1]]}/>
+        </div>
+      </div>
+
+
       <div className="w-full border-b">
         <div className="innerContainer h-5 flex items-center justify-end px-4 py-3">
           <h5 className="text-sm text1 font2 tracking-tighter underline flex items-center gap-1 hover:!text-zinc-700 transition ease-in">

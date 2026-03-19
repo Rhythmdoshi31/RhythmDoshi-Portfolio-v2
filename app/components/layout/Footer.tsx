@@ -17,19 +17,27 @@ export default function Footer() {
     "no less",
     "no more.",
   ];
+
   return (
-    <footer className="w-full h-[30vh]">
-      <div className="innerContainer h-full flex items-end justify-between p-4 pb-12">
-        <div className="flex-col flex">
+    <footer className="w-full h-[30vh] border-b">
+      <div className="innerContainer h-full flex flex-col md:flex-row justify-between md:items-end p-4 py-8 md:pt-4">
+
+        {/* rotating texts — top on mobile, right-bottom on desktop */}
+        <div className="flex flex-col items-center md:items-end justify-between md:h-full w-full md:w-1/2 md:pt-4 md:order-2">
+          <RotatingText texts={texts1} align="center" />
+          <div className="hidden md:block">
+            <RotatingText texts={texts2} />
+          </div>
+        </div>
+
+        {/* footer links — bottom on mobile, left-bottom on desktop */}
+        <div className="flex flex-col items-center md:items-start md:order-1">
           <h1 className="text-xl font2 text2 underline hover:!text-zinc-700 transition">Rhythm Doshi</h1>
           <a href="https://github.com/Rhythmdoshi31" className="hover:!text-zinc-700 transition text-sm font1 tracking-tight text2">Github</a>
           <a href="https://www.linkedin.com/in/rhythmdoshi04/" className="hover:!text-zinc-700 transition text-sm font1 tracking-tight text2">Linkedin</a>
           <a href="tel:+91-9981603789" className="text-sm font1 tracking-tight text2 hover:!text-zinc-700 transition">+91-9981603789</a>
         </div>
-        <div className="flex flex-col items-end justify-between h-full w-1/2 pt-4">
-          <RotatingText texts={texts1} />
-          <RotatingText texts={texts2}/>
-        </div>
+
       </div>
     </footer>
   );

@@ -38,15 +38,16 @@ export default function EducationSection() {
               <h2 className="text1 font1 tracking-tighter">
                 Lakshmi Narain College of Technology, Bhopal
               </h2>
+              <h4 className="sm:hidden text2 font1 text-md mt-1 hover:!text-black transition ease-in-out hover:underline">8.16 CGPA</h4>
 
-              <span className="text2 font2 tracking-tighter text-sm mt-1">
+              <span className="text2 font2 tracking-tighter text-sm  sm:mt-1">
                 11.2022 - 06.2026
               </span>
             </div>
           </div>
 
           {/* RIGHT ICON */}
-          <h4 className="text2 font1 text-sm hover:!text-black transition ease-in-out hover:underline">8.16 CGPA</h4>
+          <h4 className="hidden sm:block text2 font1 text-sm hover:!text-black transition ease-in-out hover:underline">8.16 CGPA</h4>
           {/* {chevronA ? (
             <ChevronsDownUp className="size-4 text2" />
           ) : (
@@ -82,14 +83,15 @@ export default function EducationSection() {
               <h2 className="text1 font1 tracking-tighter">
                 Ambuja Vidya Peeth, Rawan
               </h2>
+              <h4 className="sm:hidden text2 font1 text-md hover:!text-black mt-1 transition ease-in-out hover:underline">90%</h4>
 
-              <span className="text2 font2 tracking-tighter text-sm mt-1">
+              <span className="text2 font2 tracking-tighter text-sm sm:mt-1">
                 03.2020 - 05.2022
               </span>
             </div>
           </div>
 
-          <h4 className="text2 font1 text-sm hover:!text-black transition ease-in-out hover:underline">90%</h4>
+          <h4 className="hidden sm:block text2 font1 text-sm hover:!text-black transition ease-in-out hover:underline">90%</h4>
           {/* {chevronB ? (
             <ChevronsDownUp className="size-4 text2" />
           ) : (

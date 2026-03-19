@@ -72,7 +72,7 @@ export default async function ProjectPage({
             {project.subheading}
           </h4>
 
-          <div className="w-full h-[55vh] relative rounded-xl border overflow-hidden">
+          <div className="w-full h-[30vh] md:h-[55vh] sm:h-[45vh] relative rounded-xl border overflow-hidden">
             <Image
               src={project.image}
               alt={project.heading}
