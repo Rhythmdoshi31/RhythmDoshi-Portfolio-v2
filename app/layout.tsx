@@ -5,7 +5,7 @@ import ThemeToggle from "./components/ThemeToggle";
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://rhythmdoshi.site'),
-  title: "Rhythm Doshi — I Build Things for the Web",
+  title: "Rhythm Doshi — Full Stack Developer portfolio",
   description: "Full Stack Engineer building modern web applications. Explore my projects, stack, and experience in React, Next.js, Node.js and more.",
 
   icons: {

@@ -31,9 +31,9 @@ export default function EducationSection() {
 
             {/* Text */}
             <div className="flex flex-col leading-tight">
-              <h1 className="text1 font1 tracking-tighter">
+              <h2 className="text1 font1 tracking-tighter">
                 B.Tech in Electronics & Communication Engineering
-              </h1>
+              </h2>
 
               <h2 className="text1 font1 tracking-tighter">
                 Lakshmi Narain College of Technology, Bhopal
@@ -76,9 +76,9 @@ export default function EducationSection() {
             </IconBox>
 
             <div className="flex flex-col leading-tight">
-              <h1 className="text1 font1 tracking-tighter">
+              <h2 className="text1 font1 tracking-tighter">
                 Senior Secondary (Class XII)
-              </h1>
+              </h2>
 
               <h2 className="text1 font1 tracking-tighter">
                 Ambuja Vidya Peeth, Rawan

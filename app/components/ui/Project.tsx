@@ -9,8 +9,8 @@ export default function Project({ slug, heading, subheading, image}: Project) {
                 <Image src={image} alt="Project Banner" fill className="h-full w-full object-cover rounded-xl" />
             </div>
             <div className="h-[28%] flex flex-col items-start justify-center px-2 leading-none">
-                <h1 className="text-xl font2 text1 hover:underline">{heading}</h1>
-                <h2 className="text2 tracking-tighter text-sm hover:underline">{subheading}</h2>
+                <h2 className="text-xl font2 text1 hover:underline">{heading}</h2>
+                <h3 className="text2 tracking-tighter text-sm hover:underline">{subheading}</h3>
             </div>
         </Link>
     )
