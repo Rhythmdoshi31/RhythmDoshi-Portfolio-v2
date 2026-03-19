@@ -11,7 +11,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return [
     {
-      url: 'https://yourportfolio.com',
+      url: 'https://rhythmdoshi.site',
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 1,
