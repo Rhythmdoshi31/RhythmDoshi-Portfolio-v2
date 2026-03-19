@@ -12,11 +12,14 @@ import BlogsSection from "./components/BlogsSection";
 import Footer from "./components/layout/Footer";
 import ScrollToHash from "./components/ScrollToHash";
 import HiddenFooter from "./components/layout/HiddenFooter";
+import { Suspense } from "react";
 
 export default function Home() {
   return (
     <main className="min-h-screen bg1 dark:bg-black">
+      <Suspense fallback={null}>
       <ScrollToHash />
+      </Suspense>
       {/* HeroBanner */}
       <div className="w-full border-b">
         <HeroBanner />
