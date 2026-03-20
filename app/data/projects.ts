@@ -101,7 +101,7 @@ export const projects: ProjectData[] = [
       "Optimized performance with Next.js features",
     ],
     links: {
-      live: "https://rhythmdoshi.site",
+      live: "https://v2.rhythmdoshi.site",
       github: "https://github.com/Rhythmdoshi31",
     },
   },
@@ -121,7 +121,7 @@ export const projects: ProjectData[] = [
       "Improves focus and unbiased problem-solving",
     ],
     links: {
-      live: "Unavailable coz of bakchodi by Google",
+      live: "Currently not available",
       github: "https://github.com/Rhythmdoshi31",
     },
   }
