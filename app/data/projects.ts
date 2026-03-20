@@ -109,7 +109,7 @@ export const projects: ProjectData[] = [
     slug: "leetcode-hider",
     heading: "LeetCode Difficulty Hider",
     subheading: "Chrome Extension for Distraction-Free DSA Practice",
-    image: "/projects/p6.webp",
+    image: "/projects/leetcode-difficulty-hider.webp",
     description:
       "A lightweight Chrome extension designed to hide problem difficulty on LeetCode with 20+ users, helping them focus purely on problem-solving without bias.",
     tech: ["JavaScript", "Chrome Extension API", "HTML", "CSS"],

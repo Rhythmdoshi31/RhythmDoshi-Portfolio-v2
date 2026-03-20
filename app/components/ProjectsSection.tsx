@@ -18,8 +18,8 @@ export default function ProjectsSection() {
   
   const arr3: Project[] = [
     { slug:"portfolio", heading: "Portfolio", subheading: "My Personal Website v2", image:"/projects/p5.webp"},
-    // { slug:"buzztube", heading: "BuzzTube", subheading: "Video Sharing Platform", image:"/projects/p6.webp"},
-    { slug:"leetcode-hider", heading: "LeetCode Difficulty Hider", subheading: "Chrome Extension for Distraction-Free DSA Practice", image:"/projects/p6.webp"}
+    // { slug:"buzztube", heading: "BuzzTube", subheading: "Video Sharing Platform", image:"/projects/leetcode-difficulty-hider.webp"},
+    { slug:"leetcode-hider", heading: "LeetCode Difficulty Hider", subheading: "Chrome Extension for Distraction-Free DSA Practice", image:"/projects/leetcode-difficulty-hider.webp"}
   ];
 
   return (
