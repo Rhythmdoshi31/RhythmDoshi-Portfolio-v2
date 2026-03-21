@@ -86,6 +86,7 @@ export default function Home() {
 
       <BlogsSection />
 
+      <StripedBox />
 
       <Footer />
       <HiddenFooter />
