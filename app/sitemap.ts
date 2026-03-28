@@ -3,7 +3,7 @@ import { projects } from './data/projects' // your hardcoded array
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const projectUrls = projects.map((project) => ({
-    url: `https://rhythmdoshi.site/projects/${project.slug}`,
+    url: `https://rhythmdoshi.site/project/${project.slug}`,
     lastModified: new Date(),
     changeFrequency: 'monthly' as const,
     priority: 0.8,
