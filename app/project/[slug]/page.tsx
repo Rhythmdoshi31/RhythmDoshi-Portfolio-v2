@@ -66,7 +66,7 @@ export default async function ProjectPage({
       <Heading name={project.heading} />
 
       <div className="w-full border-b">
-        <div className="innerContainer px-4 py-6 text-zinc-600 text-[1.05rem] font2 tracking-tight leading-[1.55]">
+        <div className="innerContainer px-4 py-6 text-zinc-600 text-[1.05rem] font2 tracking-tight leading-[1.55] break-words">
 
           <h4 className="pb-6">
             {project.subheading}

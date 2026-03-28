@@ -15,6 +15,7 @@ const stack = [
   "shadcn-ui",
   "postman",
   "cursor",
+  "hono",
 ];
 
 const needsBg = ["nextjs", "express", "cursor", "shadcn-ui"];

@@ -23,9 +23,9 @@ export default function Navbar() {
     };
   }, []);
 
-  const isHome = pathname === "/" && hash !== "#projects";
-  const isProjects =
-    pathname.startsWith("/project") || hash === "#projects";
+  const isHome = pathname === "/" && (hash !== "#projects" && hash !== "#blogs");
+  const isProjects = pathname.startsWith("/project") || hash === "#projects";
+  const isBlogs = pathname === "/" || hash === "#blogs";
 
   return (
     <nav className="sticky top-2 z-50 h-12 w-full flex justify-center items-center bg1 border-y">
@@ -36,15 +36,20 @@ export default function Navbar() {
 
         <div className="flex gap-8">
           
-          <Link href="/" onClick={() => setHash("")}>
+          <Link href="/" onClick={() => setHash("")} className="hidden sm:block">
             <h5 className={`${isHome ? "text1" : "text2 hover:text1"}`}>
               Home
             </h5>
           </Link>
 
-          <Link href="/#projects" onClick={() => setHash("#projects")}>
+          <Link href="/#projects" onClick={() => setHash("#projects")} className="hidden sm:block">
             <h5 className={`${isProjects ? "text1" : "text2 hover:text1"}`}>
               Projects
+            </h5>
+          </Link>
+          <Link href="/#blogs" onClick={() => setHash("#blogs")} className="hidden md:block">
+            <h5 className={`${isBlogs ? "text1" : "text2 hover:text1"}`}>
+              Blog
             </h5>
           </Link>
 

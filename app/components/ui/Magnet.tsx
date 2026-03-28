@@ -20,7 +20,7 @@ const Magnet: React.FC<MagnetProps> = ({
   activeTransition = 'transform 0.3s ease-out',
   inactiveTransition = 'transform 0.5s ease-in-out',
   wrapperClassName = '',
-  innerClassName = '',
+  innerClassName = 'text-center sm:text-left',
   ...props
 }) => {
   const [magnet, setMagnet] = useState<{ isActive: boolean; x: number; y: number }>({
