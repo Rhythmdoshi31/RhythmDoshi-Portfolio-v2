@@ -25,7 +25,7 @@ export default function Navbar() {
 
   const isHome = pathname === "/" && (hash !== "#projects" && hash !== "#blogs");
   const isProjects = pathname.startsWith("/project") || hash === "#projects";
-  const isBlogs = pathname === "/" || hash === "#blogs";
+  const isBlogs = hash === "#blogs";
 
   return (
     <nav className="sticky top-2 z-50 h-12 w-full flex justify-center items-center bg1 border-y">

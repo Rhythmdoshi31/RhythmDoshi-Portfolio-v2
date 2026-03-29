@@ -15,6 +15,7 @@ const stack = [
   "shadcn-ui",
   "postman",
   "cursor",
+  'cloudflare-workers',
   "hono",
 ];
 

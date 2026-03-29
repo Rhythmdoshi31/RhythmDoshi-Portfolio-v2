@@ -28,7 +28,7 @@ export default function BlogsSection() {
                     "Here's How I run multiple backends 24x7 for free from my own machine."
                   }
                 </h2>
-                <h3 className="text2 tracking-tighter text-sm hover:underline">
+                <h3 className="flex items-center justify-center gap-2 pt-1">
                   {""}
                 </h3>
               </div>
