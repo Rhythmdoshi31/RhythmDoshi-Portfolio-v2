@@ -15,9 +15,9 @@ export const metadata: Metadata = {
 
   icons: {
     icon: [
-      { url: "/meta/fav16.png", sizes: "16x16", type: "image/png" },
-      { url: "/meta/fav32.png", sizes: "32x32", type: "image/png" },
-      { url: "/meta/fav48.png", sizes: "48x48", type: "image/png" },
+      { url: "/meta/newfav16.png", sizes: "16x16", type: "image/png" },
+      { url: "/meta/newfav32.png", sizes: "32x32", type: "image/png" },
+      { url: "/meta/newfav48.png", sizes: "48x48", type: "image/png" },
     ],
     apple: [{ url: "/meta/apple-touch-icon180.png", sizes: "180x180" }],
     other: [

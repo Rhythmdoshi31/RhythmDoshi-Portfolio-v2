@@ -32,7 +32,7 @@ export default function Navbar() {
       
       <div className="h-full max-w-3xl w-[95%] md:full flex justify-between items-center px-8 border-x">
         
-        <Image src="/images/logo.svg" alt="Logo" width={32} height={32} className="dark:bg-white rounded-md"/>
+        <Image src="/images/newlogo.webp" alt="Logo" width={32} height={32} className="dark:bg-white rounded-md"/>
 
         <div className="flex gap-8">
           
