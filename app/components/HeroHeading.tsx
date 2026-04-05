@@ -1,5 +1,8 @@
+"use client";
+
 import Image from "next/image";
 import RotatingText from "./ui/RotatingText";
+import { useEffect, useState } from "react";
 
 export default function Heroheading() {
   const texts = [
@@ -8,32 +11,64 @@ export default function Heroheading() {
     "And you'll always gravitate towards what you love",
   ];
 
+  const images = [
+    "/images/heroImage.webp",
+    "/images/heroImage2.webp",
+  ];
+
+  const [index, setIndex] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setIndex((prev) => (prev + 1) % images.length);
+    }, 4000);
+
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     <div className="innerContainer">
       <div className="h-[17vh] sm:h-[20vh] md:h-[24vh] lg:h-[24vh] w-full flex items-center justify-start">
+        
         <div
           id="imageDiv"
           className="h-full aspect-square bg1 border-r flex items-center justify-center"
         >
-          <div className="relative size-[100%] rounded-full border p-[2px] sm:p-[3px] hover:p-0 transition easy-in-out">
+          <div className="relative size-[100%] rounded-full border p-[2px] sm:p-[3px] hover:p-0 transition-all duration-300 ease-in-out">
+            
             <div className="relative w-full h-full rounded-full overflow-hidden">
-              <Image
-                src="/images/heroImage.webp"
-                alt="Rhythm"
-                fill
-                className="object-cover"
-              />
+              
+              {images.map((img, i) => (
+                <Image
+                  key={i}
+                  src={img}
+                  alt="Rhythm"
+                  fill
+                  className={`
+                    object-cover absolute inset-0
+                    transition-all duration-1000 ease-in-out
+                    ${i === index ? "opacity-100 scale-100" : "opacity-0 scale-110"}
+                  `}
+                />
+              ))}
+
             </div>
+
           </div>
         </div>
+
         <div id="infoDiv" className="h-full flex-1">
           <div className="h-[50%] md:h-[55%] border-b flex items-end px-2 pb-[1px] gap-2 font2 tracking-tighter text-[9px] sm:text-[10px] md:text-xs text-zinc-300">
             <span className="inline">text-3xl</span>
             <span className="inline">text-zinc-50</span>
             <span className="inline">font-medium</span>
           </div>
+
           <div className="h-[25%] border-b flex items-center px-2 gap-1.5 sm:gap-2">
-            <h1 className="font2 text-lg sm:text-xl md:text-2xl lg:text-3xl text1">Rhythm Doshi</h1>
+            <h1 className="font2 text-lg sm:text-xl md:text-2xl lg:text-3xl text1">
+              Rhythm Doshi
+            </h1>
+
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -47,10 +82,12 @@ export default function Heroheading() {
               />
             </svg>
           </div>
+
           <div className="h-[25%] md:h-[20%] px-2 flex items-center font1 tracking-tighter text-xs sm:text-sm">
             <RotatingText texts={texts} />
           </div>
         </div>
+
       </div>
     </div>
   );
