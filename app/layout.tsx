@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "./components/layout/Navbar";
 import ThemeToggle from "./components/ThemeToggle";
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/next";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://rhythmdoshi.site"),
@@ -44,11 +44,12 @@ export const metadata: Metadata = {
     type: "website",
   },
   twitter: {
-  card: 'summary_large_image',
-  title: "Rhythm Doshi — I Build Things for the Web",
-  description: "Full Stack Engineer building modern web applications. Explore my projects, stack, and experience in React, Next.js, Node.js and more.",
-  images: ['https://rhythmdoshi.site/meta/twitter-image.png'], // absolute URL
-},
+    card: "summary_large_image",
+    title: "Rhythm Doshi — I Build Things for the Web",
+    description:
+      "Full Stack Engineer building modern web applications. Explore my projects, stack, and experience in React, Next.js, Node.js and more.",
+    images: ["https://rhythmdoshi.site/meta/twitter-image.png"], // absolute URL
+  },
   manifest: "/meta/site.webmanifest",
 };
 
@@ -57,6 +58,22 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
+      <head>
+        <link
+          rel="preload"
+          href="/fonts/font2.woff2"
+          as="font"
+          type="font/woff2"
+          crossOrigin="anonymous"
+        />
+        <link
+          rel="preload"
+          href="/fonts/font1.woff2"
+          as="font"
+          type="font/woff2"
+          crossOrigin="anonymous"
+        />
+      </head>
       <body className={`font1 font2 antialiased`}>
         <div className="sticky top-0 h-2 w-full bg1 z-50"></div>
         <Navbar />

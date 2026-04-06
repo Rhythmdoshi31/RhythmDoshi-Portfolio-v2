@@ -46,7 +46,7 @@ export default function Navbar() {
       <div className="h-full max-w-3xl w-[95%] md:full flex justify-between items-center px-8 border-x">
         <Image
       src={isDark ? "/images/newlogodark.webp" : "/images/newlogo.webp"}
-      alt="Logo"
+      alt="Logo of Rhythm Doshi"
       width={32}
       height={32}
       className="rounded-full"

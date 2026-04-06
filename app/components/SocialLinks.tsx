@@ -4,11 +4,11 @@ import Image from "next/image";
 export default function SocialLinks () {
     return (
        <div className="innerContainer h-32 md:h-16 grid grid-cols-2 md:grid-cols-4">
-          <a target="_blank" href="https://www.linkedin.com/in/rhythmdoshi04/" className="group hover-bg2 transition ease-in border-r flex items-center justify-between px-3 pl-4 border-b md:border-b-0">
+          <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/rhythmdoshi04/" className="group hover-bg2 transition ease-in border-r flex items-center justify-between px-3 pl-4 border-b md:border-b-0">
             <div className="flex items-center gap-2">
               <Image
                 src="/images/linkedin.webp"
-                alt="linkedin"
+                alt=""
                 width={24}
                 height={24}
                 className="rounded-md"
@@ -19,11 +19,11 @@ export default function SocialLinks () {
           </a>
 
           
-          <a target="_blank" href="https://github.com/Rhythmdoshi31" className="group hover-bg2 transition ease-in flex-1 border-r flex items-center justify-between px-3 pl-4 border-b md:border-b-0">
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/Rhythmdoshi31" className="group hover-bg2 transition ease-in flex-1 border-r flex items-center justify-between px-3 pl-4 border-b md:border-b-0">
             <div className="flex items-center gap-2">
               <Image
                 src="/images/github.webp"
-                alt="github"
+                alt=""
                 width={24}
                 height={24}
                 className="rounded-md"
@@ -33,19 +33,19 @@ export default function SocialLinks () {
             <ArrowUpRight className="w-4 h-4 text-zinc-600 dark:text-zinc-400 group-hover:rotate-45 transition ease-in-out" />
           </a>
 
-          <a target="_blank" href="https://x.com/rhythmdoshi04" className="group hover-bg2 transition ease-in flex-1 border-r flex items-center justify-between px-3 pl-4">
+          <a target="_blank" rel="noopener noreferrer" href="https://x.com/rhythmdoshi04" className="group hover-bg2 transition ease-in flex-1 border-r flex items-center justify-between px-3 pl-4">
             <div className="flex items-center gap-2">
-              <Image src="/images/x.webp" alt="x" width={24} height={24} className="rounded-md"/>
+              <Image src="/images/x.webp" alt="" width={24} height={24} className="rounded-md"/>
               <h3>X</h3>
             </div>
             <ArrowUpRight className="w-4 h-4 text-zinc-600 dark:text-zinc-400 group-hover:rotate-45 transition ease-in-out" />
           </a>
 
-          <a target="_blank" href="https://leetcode.com/u/Rhythmdoshi31/" className="group hover-bg2 transition ease-in flex-1 flex items-center justify-between px-3 pl-4">
+          <a target="_blank" rel="noopener noreferrer" href="https://leetcode.com/u/Rhythmdoshi31/" className="group hover-bg2 transition ease-in flex-1 flex items-center justify-between px-3 pl-4">
             <div className="flex items-center gap-2">
               <Image
                 src="/images/leetcode.webp"
-                alt="leetcode"
+                alt=""
                 width={24}
                 height={24}
                 className="rounded-md"

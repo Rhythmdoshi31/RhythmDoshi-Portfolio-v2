@@ -43,7 +43,7 @@ export default async function ProjectPage({
 
           <div className="flex gap-4">
             {project.links?.github && (
-              <Link href={project.links.github} target="_blank">
+              <Link href={project.links.github} target="_blank" rel="noopener noreferrer">
                 <IconBox>
                   <Github className="size-6" />
                 </IconBox>
@@ -51,7 +51,7 @@ export default async function ProjectPage({
             )}
 
             {project.links?.live && (
-              <Link href={project.links.live} target="_blank">
+              <Link href={project.links.live} target="_blank" rel="noopener noreferrer">
                 <IconBox>
                   <ArrowRight className="size-6" />
                 </IconBox>
@@ -109,7 +109,7 @@ export default async function ProjectPage({
                 Live:{" "}
                 <a
                   href={project.links.live}
-                  target="_blank"
+                  target="_blank" rel="noopener noreferrer"
                   className="text1 underline"
                 >
                   {project.links.live}
@@ -122,7 +122,7 @@ export default async function ProjectPage({
                 Github:{" "}
                 <a
                   href={project.links.github}
-                  target="_blank"
+                  target="_blank" rel="noopener noreferrer"
                   className="text1 underline"
                 >
                   {project.links.github}

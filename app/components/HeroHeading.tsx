@@ -42,13 +42,15 @@ export default function Heroheading() {
                 <Image
                   key={i}
                   src={img}
-                  alt="Rhythm"
+                  alt="Portrait of Rhythm Doshi"
                   fill
                   className={`
                     object-cover absolute inset-0
                     transition-all duration-1000 ease-in-out
                     ${i === index ? "opacity-100 scale-100" : "opacity-0 scale-110"}
                   `}
+                  priority={index === 0}
+                  fetchPriority={index === 0 ? "high" : "auto"}
                 />
               ))}
 
