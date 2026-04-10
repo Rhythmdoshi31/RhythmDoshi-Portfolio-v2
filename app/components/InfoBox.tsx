@@ -33,15 +33,22 @@ export default function InfoBox() {
             <IconBox>
               <Phone className="size-3.5" />
             </IconBox>
-            <a href="tel:+91-9981603789" className="hover:underline">+91-9981603789</a>
-            <CopyButton text="+91-9981603789"/>
+            <a href="tel:+91-9981603789" className="hover:underline">
+              +91-9981603789
+            </a>
+            <CopyButton text="+91-9981603789" />
           </div>
 
           <div className="flex items-center gap-2">
             <IconBox>
               <MapPin className="size-3.5" />
             </IconBox>
-            <a href="https://www.google.com/maps/place/Bhopal,+Madhya+Pradesh/@23.1996391,77.2407346,11z/data=!3m1!4b1!4m6!3m5!1s0x397c428f8fd68fbd:0x2155716d572d4f8!8m2!3d23.2599333!4d77.412615!16zL20vMGN3NTE?entry=ttu&g_ep=EgoyMDI2MDMxNS4wIKXMDSoASAFQAw%3D%3D" className="hover:underline">Bhopal, India</a>
+            <a
+              href="https://www.google.com/maps/place/Bhopal,+Madhya+Pradesh/@23.1996391,77.2407346,11z/data=!3m1!4b1!4m6!3m5!1s0x397c428f8fd68fbd:0x2155716d572d4f8!8m2!3d23.2599333!4d77.412615!16zL20vMGN3NTE?entry=ttu&g_ep=EgoyMDI2MDMxNS4wIKXMDSoASAFQAw%3D%3D"
+              className="hover:underline"
+            >
+              Bhopal, India
+            </a>
           </div>
 
           <div className="flex items-center gap-2">
@@ -55,6 +62,14 @@ export default function InfoBox() {
         </div>
 
         <div className="flex flex-col gap-2 justify-center md:items-start mt-4 md:mt-0">
+          <div className="flex items-center gap-2 relative">
+            <IconBox>
+              <FileText className="size-3.5" />
+            </IconBox>
+            <a href="/Rhythmdoshi.pdf" download className="hover:underline">
+              Resume
+            </a>
+          </div>
           <div className="flex items-center gap-2">
             <IconBox>
               <Mars className="size-3.5" />
@@ -66,14 +81,9 @@ export default function InfoBox() {
             <IconBox>
               <Globe className="size-3.5" />
             </IconBox>
-            <a href="https://rhythmdoshi.site" className="hover:underline">rhythmdoshi.site</a>
-          </div>
-
-          <div className="flex items-center gap-2">
-            <IconBox>
-              <FileText className="size-3.5" />
-            </IconBox>
-            <a href="/Rhythmdoshi.pdf" download className="hover:underline">Resume</a>
+            <a href="https://rhythmdoshi.site" className="hover:underline">
+              rhythmdoshi.site
+            </a>
           </div>
         </div>
       </div>
