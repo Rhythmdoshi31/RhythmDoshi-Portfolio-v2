@@ -60,7 +60,7 @@ export default function Heroheading() {
         </div>
 
         <div id="infoDiv" className="h-full flex-1">
-          <div className="h-[50%] md:h-[55%] border-b flex items-end px-2 pb-[1px] gap-2 font2 tracking-tighter text-[9px] sm:text-[10px] md:text-xs text-zinc-300">
+          <div className="h-[50%] md:h-[55%] border-b flex items-end px-2 pb-[1px] gap-2 font2 tracking-tighter text-[9px] sm:text-[10px] md:text-xs text-zinc-3di00">
             <span className="inline">text-3xl</span>
             <span className="inline">text-zinc-50</span>
             <span className="inline">font-medium</span>

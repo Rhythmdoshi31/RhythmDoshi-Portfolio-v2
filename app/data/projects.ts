@@ -32,7 +32,7 @@ export const projects: ProjectData[] = [
     slug: "societysync",
     heading: "SocietySync",
     subheading: "Role-Based Society Management Platform",
-    image: "/projects/p2.webp",
+    image: "/projects/p22.webp",
     description:
       "SocietySync is a web platform designed to simplify management operations within residential communities. It allows different user roles such as residents, admins, and staff to interact through a unified system for handling daily tasks like issue reporting and scheduling.",
     tech: [],

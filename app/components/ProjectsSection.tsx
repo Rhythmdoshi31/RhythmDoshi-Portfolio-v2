@@ -8,7 +8,7 @@ import Link from "next/link";
 export default function ProjectsSection() {
   const arr1: Project[] = [
     { slug:"betterdrive", heading: "BetterDrive", subheading: "Google Drive That Feels Right", image:"/projects/p1.webp"},
-    { slug:"societysync", heading: "SocietySync", subheading: "Society Management Platform", image:"/projects/p2.webp"},
+    { slug:"societysync", heading: "SocietySync", subheading: "Society Management Platform", image:"/projects/p22.webp"},
   ];
   
   const arr2: Project[] = [
