@@ -66,7 +66,8 @@ export default function InfoBox() {
             <IconBox>
               <FileText className="size-3.5" />
             </IconBox>
-            <a href="/Rhythmdoshi.pdf" download className="hover:underline">
+            {/* <a href="/Rhythmdoshi.pdf" download className="hover:underline"> */}
+            <a href="https://drive.google.com/file/d/1s577zCH_64Ptij627SRhIrtKLQMWZcrN/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="hover:underline">
               Resume
             </a>
           </div>
@@ -81,7 +82,7 @@ export default function InfoBox() {
             <IconBox>
               <Globe className="size-3.5" />
             </IconBox>
-            <a href="https://rhythmdoshi.site" className="hover:underline">
+            <a href="https://rhythmdoshi.site" target="_blank" rel="noopener noreferrer" className="hover:underline">
               rhythmdoshi.site
             </a>
           </div>
