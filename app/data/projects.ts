@@ -6,6 +6,7 @@ export const projects: ProjectData[] = [
     heading: "BetterDrive",
     subheading: "Google Drive That Feels Right",
     image: "/projects/p1.webp",
+    alt: "Google Drive style file management app with secure authentication",
     description:
       "BetterDrive is a full-stack file management web application inspired by Google Drive, built to handle secure file storage and structured access control.",
     tech: [
@@ -33,6 +34,7 @@ export const projects: ProjectData[] = [
     heading: "SocietySync",
     subheading: "Role-Based Society Management Platform",
     image: "/projects/p22.webp",
+    alt: "Role based society management platform with ticketing and admin workflows",
     description:
       "SocietySync is a web platform designed to simplify management operations within residential communities. It allows different user roles such as residents, admins, and staff to interact through a unified system for handling daily tasks like issue reporting and scheduling.",
     tech: [],
@@ -52,6 +54,7 @@ export const projects: ProjectData[] = [
     heading: "LivelyChat",
     subheading: "Real-Time Communication Platform",
     image: "/projects/p3.webp",
+    alt: "Real time chat and video calling app using WebSockets WebRTC",
     description:
       "LivelyChat is a real-time communication platform that enables users to interact through instant messaging and peer-to-peer video calls with low latency.",
     tech: ["Node.js", "Express", "WebSockets", "WebRTC", "EJS", "Tailwind CSS"],
@@ -72,6 +75,7 @@ export const projects: ProjectData[] = [
     heading: "Cinéclair",
     subheading: "Movie Discovery Platform",
     image: "/projects/p4.webp",
+    alt: "Movie discovery app with search trending films and animated UI",
     description:
       "Cinéclair is a modern movie discovery app that allows users to explore trending movies, TV shows, and actor profiles with a smooth and immersive UI.",
     tech: ["React", "Redux", "Tailwind CSS", "Framer Motion", "TMDB API"],
@@ -91,6 +95,7 @@ export const projects: ProjectData[] = [
     heading: "Developer Portfolio v2",
     subheading: "Personal Portfolio Website v2",
     image: "/projects/p5.webp",
+    alt: "Developer portfolio website showcasing projects skills and responsive UI design",
     description:
       "A personal portfolio website to showcase projects, skills, and experience with a clean UI and smooth interactions.",
     tech: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion", "shadcnUI", "AceternityUI"],
@@ -110,6 +115,7 @@ export const projects: ProjectData[] = [
     heading: "LeetCode Difficulty Hider",
     subheading: "Chrome Extension for Distraction-Free DSA Practice",
     image: "/projects/leetcode-difficulty-hider.webp",
+    alt: "Chrome extension hiding LeetCode difficulty for focused problem solving practice",
     description:
       "A lightweight Chrome extension designed to hide problem difficulty on LeetCode with 20+ users, helping them focus purely on problem-solving without bias.",
     tech: ["JavaScript", "Chrome Extension API", "HTML", "CSS"],

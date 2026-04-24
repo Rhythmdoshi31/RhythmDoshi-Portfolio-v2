@@ -8,7 +8,7 @@ export default function SocialLinks () {
             <div className="flex items-center gap-2">
               <Image
                 src="/images/linkedin.webp"
-                alt=""
+                alt="LinkedIn Profile"
                 width={24}
                 height={24}
                 className="rounded-md"
@@ -23,7 +23,7 @@ export default function SocialLinks () {
             <div className="flex items-center gap-2">
               <Image
                 src="/images/github.webp"
-                alt=""
+                alt="Github Profile"
                 width={24}
                 height={24}
                 className="rounded-md"
@@ -35,7 +35,7 @@ export default function SocialLinks () {
 
           <a target="_blank" rel="noopener noreferrer" href="https://x.com/rhythmdoshi04" className="group hover-bg2 transition ease-in flex-1 border-r flex items-center justify-between px-3 pl-4">
             <div className="flex items-center gap-2">
-              <Image src="/images/x.webp" alt="" width={24} height={24} className="rounded-md"/>
+              <Image src="/images/x.webp" alt="X Profile" width={24} height={24} className="rounded-md"/>
               <h3>X</h3>
             </div>
             <ArrowUpRight className="w-4 h-4 text-zinc-600 dark:text-zinc-400 group-hover:rotate-45 transition ease-in-out" />
@@ -45,7 +45,7 @@ export default function SocialLinks () {
             <div className="flex items-center gap-2">
               <Image
                 src="/images/leetcode.webp"
-                alt=""
+                alt="LeetCode Profile"
                 width={24}
                 height={24}
                 className="rounded-md"

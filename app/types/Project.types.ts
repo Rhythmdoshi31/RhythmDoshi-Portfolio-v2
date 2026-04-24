@@ -3,6 +3,7 @@ export type Project = {
     heading: string;
     subheading: string;
     image: string;
+    alt: string;
 }
 
 export type ProjectProps = {
@@ -14,6 +15,7 @@ export type ProjectData = {
   heading: string;
   subheading: string;
   image: string;
+  alt: string;
   description: string;
   tech: string[];
   filler: string;

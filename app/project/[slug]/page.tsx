@@ -36,9 +36,9 @@ export default async function ProjectPage({
             className="flex gap-2 items-center text2 hover:!text-zinc-600 hover:underline"
           >
             <ArrowLeft className="h-4 w-4" />
-            <h1 className="font1 tracking-tighter text-inherit">
+            <h5 className="font1 tracking-tighter text-inherit">
               Projects
-            </h1>
+            </h5>
           </Link>
 
           <div className="flex gap-4">
@@ -75,7 +75,7 @@ export default async function ProjectPage({
           <div className="w-full h-[30vh] md:h-[55vh] sm:h-[45vh] relative rounded-xl border overflow-hidden">
             <Image
               src={project.image}
-              alt={project.heading}
+              alt={project.alt}
               fill
               sizes="100vw"
               className="object-cover"

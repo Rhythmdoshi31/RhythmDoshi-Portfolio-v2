@@ -12,7 +12,7 @@ export default function Footer() {
     "will be placed",
     "the exact results",
     "of your own thoughts;",
-    "you will recieve",
+    "you will receive",
     "that which you earn",
     "no less",
     "no more.",

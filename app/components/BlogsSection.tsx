@@ -17,20 +17,17 @@ export default function BlogsSection() {
               <div className="h-[72%] w-full bg3 border rounded-xl relative overflow-hidden">
                 <Image
                   src={"/blogs/b1.webp"}
-                  alt="Project Banner"
+                  alt="Self-hosted backend server setup running 24/7 on a local machine without cloud hosting"
                   fill
                   className="h-full w-full object-cover rounded-xl scale-120"
                 />
               </div>
               <div className="h-[28%] flex flex-col items-start justify-center px-2 leading-none">
-                <h2 className="text-xl font2 text1 hover:underline">
+                <h2 className="text-xl font2 text1 hover:underline mb-1">
                   {
                     "Here's How I run multiple backends 24x7 for free from my own machine."
                   }
                 </h2>
-                <h3 className="flex items-center justify-center gap-2 pt-1">
-                  {""}
-                </h3>
               </div>
             </Link>
           </div>

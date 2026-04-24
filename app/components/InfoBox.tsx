@@ -75,7 +75,7 @@ export default function InfoBox() {
             <IconBox>
               <Mars className="size-3.5" />
             </IconBox>
-            <h2>He/him</h2>
+            <h3>He/him</h3>
           </div>
 
           <div className="flex items-center gap-2">
