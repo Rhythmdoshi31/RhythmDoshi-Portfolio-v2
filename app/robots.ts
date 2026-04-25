@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       disallow: '',
     },
-    sitemap: 'https://rhythmdoshi.site/sitemap.xml',
+    sitemap: 'https://rhythmdoshi.xyz/sitemap.xml',
   }
 }

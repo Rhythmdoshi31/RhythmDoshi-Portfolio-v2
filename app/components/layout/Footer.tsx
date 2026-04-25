@@ -32,7 +32,7 @@ export default function Footer() {
 
         {/* footer links — bottom on mobile, left-bottom on desktop */}
         <div className="flex flex-col items-center md:items-start md:order-1">
-          <a href="https://rhythmdoshi.site" className="text-xl font2 text2 underline hover:!text-zinc-700 transition">Rhythm Doshi</a>
+          <a href="https://rhythmdoshi.xyz" className="text-xl font2 text2 underline hover:!text-zinc-700 transition">Rhythm Doshi</a>
           <a href="https://github.com/Rhythmdoshi31" className="hover:!text-zinc-700 transition text-sm font1 tracking-tight text2">Github</a>
           <a href="https://www.linkedin.com/in/rhythmdoshi04/" className="hover:!text-zinc-700 transition text-sm font1 tracking-tight text2">Linkedin</a>
           <a href="tel:+91-9981603789" className="text-sm font1 tracking-tight text2 hover:!text-zinc-700 transition">+91-9981603789</a>

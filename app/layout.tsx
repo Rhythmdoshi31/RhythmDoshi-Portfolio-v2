@@ -5,7 +5,7 @@ import ThemeToggle from "./components/ThemeToggle";
 import { Analytics } from "@vercel/analytics/next";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://rhythmdoshi.site"),
+  metadataBase: new URL("https://rhythmdoshi.xyz"),
   alternates: {
     canonical: "/",
   },
@@ -32,11 +32,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Rhythm Doshi — I Build Things for the Web",
     description: "Full Stack Engineer building modern web applications.",
-    url: "https://rhythmdoshi.site",
+    url: "https://rhythmdoshi.xyz",
     siteName: "Rhythm Doshi",
     images: [
       {
-        url: "https://rhythmdoshi.site/meta/og-image.png",
+        url: "https://rhythmdoshi.xyz/meta/og-image.png",
         width: 1200,
         height: 630,
       },
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     title: "Rhythm Doshi — I Build Things for the Web",
     description:
       "Full Stack Engineer building modern web applications. Explore my projects, stack, and experience in React, Next.js, Node.js and more.",
-    images: ["https://rhythmdoshi.site/meta/twitter-image.png"], // absolute URL
+    images: ["https://rhythmdoshi.xyz/meta/twitter-image.png"], // absolute URL
   },
   manifest: "/meta/site.webmanifest",
 };

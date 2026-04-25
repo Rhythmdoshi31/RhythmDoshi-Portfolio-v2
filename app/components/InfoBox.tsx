@@ -82,7 +82,7 @@ export default function InfoBox() {
             <IconBox>
               <Globe className="size-3.5" />
             </IconBox>
-            <a href="https://rhythmdoshi.site" target="_blank" rel="noopener noreferrer" className="hover:underline">
+            <a href="https://rhythmdoshi.xyz" target="_blank" rel="noopener noreferrer" className="hover:underline">
               rhythmdoshi.site
             </a>
           </div>

@@ -11,7 +11,7 @@ const nextConfig: NextConfig = {
             value: "www.rhythmdoshi.site",
           },
         ],
-        destination: "https://rhythmdoshi.site/:path*",
+        destination: "https://rhythmdoshi.xyz/:path*",
         permanent: true,
       },
     ];
