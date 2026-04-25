@@ -8,7 +8,7 @@ const nextConfig: NextConfig = {
         has: [
           {
             type: "host",
-            value: "www.rhythmdoshi.site",
+            value: "www.rhythmdoshi.xyz",
           },
         ],
         destination: "https://rhythmdoshi.xyz/:path*",

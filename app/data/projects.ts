@@ -25,7 +25,7 @@ export const projects: ProjectData[] = [
       "Redis caching and debounced search for performance",
     ],
     links: {
-      live: "https://betterdrive.rhythmdoshi.site",
+      live: "https://betterdrive.rhythmdoshi.xyz",
       github: "https://github.com/Rhythmdoshi31",
     },
   },
@@ -45,7 +45,7 @@ export const projects: ProjectData[] = [
       "Structured APIs and database design for handling multiple workflows",
     ],
     links: {
-      live: "https://societysync.rhythmdoshi.site",
+      live: "https://societysync.rhythmdoshi.xyz",
       github: "https://github.com/Rhythmdoshi31/Societysnyc",
     },
   },
@@ -66,7 +66,7 @@ export const projects: ProjectData[] = [
       "Event-driven backend for handling live sessions",
     ],
     links: {
-      live: "https://lively.rhythmdoshi.site",
+      live: "https://lively.rhythmdoshi.xyz",
       github: "https://github.com/Rhythmdoshi31/Lively",
     },
   },
@@ -86,7 +86,7 @@ export const projects: ProjectData[] = [
       "Smooth UI animations using Framer Motion",
     ],
     links: {
-      live: "https://cineclair.rhythmdoshi.site", 
+      live: "https://cineclair.rhythmdoshi.xyz", 
       github: "https://github.com/Rhythmdoshi31/cineclair",
     },
   },
@@ -106,7 +106,7 @@ export const projects: ProjectData[] = [
       "Optimized performance with Next.js features",
     ],
     links: {
-      live: "https://v2.rhythmdoshi.site",
+      live: "https://v2.rhythmdoshi.xyz",
       github: "https://github.com/Rhythmdoshi31",
     },
   },
